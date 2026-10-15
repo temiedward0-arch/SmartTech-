@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio - SMART TECH</title>
+<style>
+*{margin:0; padding:0; box-sizing:border-box; font-family:'Segoe UI', Arial;}
+body{background:white;}
+.nav{display:flex; justify-content:space-between; align-items:center; padding:12px 20px; background:white; position:sticky; top:0; z-index:10; box-shadow:0 2px 20px rgba(8,51,137,0.07);}
+.nav img{width:42px; border-radius:50%;}
+.nav a{color:#083389; text-decoration:none; font-weight:bold;}
+.hero{text-align:center; padding:70px 20px 30px; background: radial-gradient(circle at top, #e8efff 0%, white 100%);}
+.hero h1{color:#083389; font-size:40px; font-weight:800;}
+.hero p{color:#666; max-width:600px; margin:10px auto;}
+
+.grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:18px; padding:25px; max-width:1100px; margin:auto;}
+.item{background:white; border-radius:16px; overflow:hidden; border:1px solid #eef2ff; box-shadow:0 10px 30px rgba(8,51,137,0.06); transition:0.3s;}
+.item:hover{transform:translateY(-6px); box-shadow:0 20px 40px rgba(8,51,137,0.12);}
+.item img{width:100%; height:350px; object-fit:cover; object-position:top;}
+.item .info{padding:12px 15px;}
+.item .info h4{color:#083389; font-size:15px;}
+.item .info p{color:#777; font-size:12px; margin-top:3px;}
+
+.footer{text-align:center; padding:25px; background:#02123a; color:#8aa8d8; font-size:12px; margin-top:40px;}
+</style>
+</head>
+<body>
+<div class="nav"><img src="logo.jpg"><a href="Index.html">← Home</a></div>
+
+<div class="hero">
+  <h1>Our Flyer Projects</h1>
+  <p>Professional flyers, promotional designs and branding - Designed by SMART TECH</p>
+</div>
+
+<div class="grid">
+  <div class="item"><img src="flyer1.jpg"><div class="info"><h4>Deolus Footwear</h4><p>Product / Brand Flyer</p></div></div>
+  <div class="item"><img src="flyer2.jpg"><div class="info"><h4>Boscath Model School</h4><p>School Admission Flyer</p></div></div>
+  <div class="item"><img src="flyer3.jpg"><div class="info"><h4>Heavenly Race Platform</h4><p>Church Programme Flyer</p></div></div>
+  <div class="item"><img src="flyer4.jpg"><div class="info"><h4>Teachers' Day - Boscath</h4><p>Creative Celebration Design</p></div></div>
+  <div class="item"><img src="flyer5.jpg"><div class="info"><h4>Lady B Bites Bakery</h4><p>Business Promo Flyer</p></div></div>
+  <div class="item"><img src="flyer6.jpg"><div class="info"><h4>Photo Transformation</h4><p>Birthday Photoshoot Design</p></div></div>
+</div>
+
+<div class="footer">© 2026 SMART TECH - Where Innovation Meets Creativity<br>Chat: 09115605885 | smarttech0219@gmail.com</div>
+</body>
+</html>
